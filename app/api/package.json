@@ -1,0 +1,33 @@
+{
+  "name": "programming-skills",
+  "version": "1.0.0",
+  "description": "Tech Exam",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "moment": "^2.29.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.2"
+  },
+  "scripts": {
+    "test": "npx jest --silent --maxWorkers=1",
+    "coverage": "npx jest --silent --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PEscobar6/programming-skills.git"
+  },
+  "author": {
+    "name": "Pablo Escobar",
+    "email": "pablo-9906@outlook.es"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PEscobar6/programming-skills/issues"
+  },
+  "homepage": "https://github.com/PEscobar6/programming-skills#readme"
+}
